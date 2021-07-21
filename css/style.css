@@ -21,7 +21,7 @@ html {
 }
 header {
   background: var(--dark);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%); */
 }
 .container {
   max-width: 1152px;
@@ -187,7 +187,7 @@ section.freelancer {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url(../IMAGES/camera.png);
   color: var(--pure);
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%); */
   padding-bottom: 14rem;
 }
 section.freelancer h1 {
@@ -261,7 +261,7 @@ section.reviews .dots li.slick-active button {
 section.Blog {
   background: var(--dark);
   padding-bottom: 12rem;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%); */
 }
 section.Blog .section-heading {
   color: var(--pure);
