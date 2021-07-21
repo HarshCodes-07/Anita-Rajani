@@ -307,9 +307,7 @@ section.Blog .card-wrapper .card .card-content a.read-more {
   font-size: 0.8rem;
 }
 section.contact .card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 3rem;
+  margin: auto;
 }
 section.contact .card-wrapper .card {
   text-align: center;
