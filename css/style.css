@@ -311,18 +311,18 @@ section.Blog .card-wrapper .card .card-content a.read-more {
 section.contact .card-wrapper {
   margin: auto;
 }
-section.contact .card-wrapper .card {
+section.contact .card-wrapper .card-mine {
   text-align: center;
 }
-section.contact .card-wrapper .card img {
+section.contact .card-wrapper .card-mine img {
   margin-bottom: 3rem;
 }
-section.contact .card-wrapper .card h1 {
+section.contact .card-wrapper .card-mine h1 {
   color: var(--secondary);
   font-weight: 400;
   margin-bottom: 1rem;
 }
-section.contact .card-wrapper .card h6 {
+section.contact .card-wrapper .card-mine h6 {
   font-size: 1rem;
   color: var(--ternary);
   font-weight: 400;
