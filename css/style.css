@@ -278,7 +278,12 @@ section.Blog .card-wrapper {
 }
 section.Blog .card-wrapper .card {
   background: var(--pure);
-  width: 33%;
+}
+@media screen and (min-width: 700px) {
+  section.Blog .card-wrapper .card {
+    background: var(--pure);
+    width: 33%;
+  }
 }
 section.Blog .card-wrapper .card .img-wrapper img {
   width: 100%;
