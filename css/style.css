@@ -263,6 +263,7 @@ section.reviews .dots li.slick-active button {
 section.Blog {
   background: url(../IMAGES/pexels-freestocksorg-818650.jpg);
   padding-bottom: 6rem;
+
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover;
@@ -272,12 +273,12 @@ section.Blog .section-heading {
   color: var(--pure);
 }
 section.Blog .card-wrapper {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 3rem;
+  display: flex;
+  justify-content: center;
 }
 section.Blog .card-wrapper .card {
   background: var(--pure);
+  width: 33%;
 }
 section.Blog .card-wrapper .card .img-wrapper img {
   width: 100%;
