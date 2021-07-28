@@ -261,8 +261,11 @@ section.reviews .dots li.slick-active button {
   width: 20px;
 }
 section.Blog {
-  background: var(--dark);
-  padding-bottom: 12rem;
+  background: url(../IMAGES/pexels-freestocksorg-818650.jpg);
+  padding-bottom: 6rem;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
   /* clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%); */
 }
 section.Blog .section-heading {
