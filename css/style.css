@@ -1,11 +1,11 @@
 @import "utilities.css";
 :root {
-  --primary: 	#000;
-  --dark: #fff;
+  --primary: #FFA900;
+  --dark: #CD113B;
   --ternary: #898989;
   --light: #f2f2f2;
   --pure: #ffffff;
-  --secondary: #fff;
+  --secondary: #070606;
 }
 body {
   font-family: "Poppins", sans-serif;
@@ -20,9 +20,7 @@ html {
   --webkit-font-smoothing: antialiased;
 }
 header {
-  background: url(../IMAGES/pexels-pixabay-414660.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: var(--dark);
   /* clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%); */
 }
 .container {
@@ -150,7 +148,7 @@ section.services .card-wrapper {
   display: grid;
 }
 section.services {
-  background: #ffe6e6;
+  background: var(--primary);
 }
 section.services .card-wrapper .card {
   background: var(--pure);
@@ -159,6 +157,9 @@ section.services .card-wrapper .card {
   padding-top: 10rem;
   text-align: center;
   transition: all 0.3s ease;
+}
+section.services .section-heading span{
+  color: var(--dark);
 }
 section.services .card-wrapper .card:hover {
   background: var(--dark);
@@ -321,7 +322,7 @@ section.Blog .card-wrapper .card .card-content a.read-more {
   font-size: 0.8rem;
 }
 section.contact{
-  background:#ffe6e6;
+  background:var(--dark);
 }
 section.contact .card-wrapper {
   margin: auto;

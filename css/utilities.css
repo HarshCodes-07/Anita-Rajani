@@ -21,22 +21,22 @@
   transition: all 0.3s ease;
 }
 .btn-primary {
-  background: pink;
-  color: var(--primary);
+  background: var(--primary);
+  color: var(--secondary);
 }
 .btn-primary:hover {
   background: transparent;
-  border-color: pink;
+  border-color: var(--primary);
   color: var(--primary);
 }
 .btn-secondary {
   background: transparent;
-  border-color: pink;
+  border-color: var(--primary);
   color: var(--primary);
 }
 .btn-secondary:hover {
-  background: pink;
-  color: var(--primary);
+  background: var(--primary);
+  color: var(--secondary);
 }
 .flex1 {
   flex: 1;
